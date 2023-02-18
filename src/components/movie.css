@@ -1,0 +1,120 @@
+.inputSearch {
+    outline: none;
+    border: 3px solid rgb(188, 188, 188);
+    height: 50px;
+    margin-right: 20px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.input-icon i {
+    position: absolute;
+    top: 13vh;
+    color: #fff;
+    font-size: 20px;
+    background: none;
+    width: 20px;
+}
+
+.icon {
+    background: none;
+    height: 2rem;
+    width: 2rem;
+}
+
+.btnH {
+    height: 40px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+
+.parameter-row {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.4;
+}
+
+.parameter-row-2 {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.4;
+}
+
+.parameter-label {
+    text-align: left;
+    font-weight: 600;
+    color: rgb(36, 10, 10);
+    font-size: 14px;
+}
+
+.parameter-value {
+    text-align: right;
+    color: rgb(168, 199, 183);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 1400px) {
+    .text-display {
+        margin-left: 3.2rem !important;
+        margin-right: 3.2rem !important;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .text-display {
+        margin-left: 1.85rem !important;
+        margin-right: 1.85rem !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .text-display {
+        margin-right: 0.45rem !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .text-display {
+        text-align: start !important;
+    }
+    .bttn {
+        font-size: 20px !important;
+    }
+    .label-bttn {
+        font-size: 24px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .parameter-label {
+        font-size: 15px;
+    }
+    .parameter-value {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 576px) {
+    .parameter-row {
+        margin-left: 0.9rem;
+        margin-right: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .sm-screen-display {
+        margin-left: 4% !important;
+        margin-right: 4% !important;
+    }
+    .bttn {
+        width: 13rem !important;
+    }
+    .label-bttn {
+        font-size: 24px !important;
+    }
+    .parameter-row {
+        display: block !important;
+    }
+}
